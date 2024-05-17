@@ -23,8 +23,7 @@ class HadithDetailsPage extends GetView<HadithController> {
                 )
               : NestedScrollView(
                   floatHeaderSlivers: true,
-                  headerSliverBuilder:
-                      (BuildContext context, bool innerBoxIsScrolled) {
+                  headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
                     return <Widget>[
                       SliverAppBar(
                         backgroundColor: AppColors.primaryColor,

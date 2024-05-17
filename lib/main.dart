@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:ird_app_zishan/core/routes/app_pages.dart';
-import 'core/utils/colors.dart';
 import 'modules/hadith/bindings/hadith_binding.dart';
 
 void main() {
